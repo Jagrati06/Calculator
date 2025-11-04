@@ -2,7 +2,6 @@
   "name": "react-calculator",
   "private": true,
   "homepage": "https://github.com/Jagrati06/Calculator",
-
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
